@@ -110,13 +110,62 @@ a2 = {
 }
 print(a2)
 
+
 or2 = {
     'sdfs' : 'akflkdsf' ,
     'kjkgskjds' : 'mvxma' ,
     'jkgdk' : 'kvmaasd' ,
 }
 
+
 a6 = [ ['a', 'c'], ['z', 'k'] ]
 print(dict(a6))
 
+
+a8 = {'green': 'asd', 'blue' : 'asdas', 'red': 'asffff'}
+print(a8.keys())
+
+
+print(list(a8.keys()))
+
+
+f2 = {'brown' : 'vvv', 'grey' : 'dasdsad' , 'orange': 'kvk'}
+print(f2.keys() , list(f2.keys()))
+
+
+numbers = ('adsdasdasd ' ,' asdasdasd' , 'asdasdsad' , 'ewkfoewf' , 'korkere')
+print (numbers)
+
+
+l1 = {'fsdfsdf' : 'sadsad' , 'dasdsd' : 'dsad'}
+l2 = l1.copy()
+print(l2)
+
+
+c = 'sdfsdfsdfdsf' , 'fsdfsdfsdf ' , 'dsfsfsdfsdf' ,' dsfsdfsdfds' , 'sdfsdfsdf'
+len(c)
+
+password, icecream = 'icecream', 'password'
+print(password , icecream)
+
+
+g4 = [23748317202 , 19203, 9192, 36475, 2124, 8, 976, 33, 1, 8, 97, 3]
+g4.sort()
+print (g4)
+
+print(231324555555555555555555555)
+
+# множества
+
+b3 = set()
+print(b3)
+
+b4_aaa = {3,1,6,4,1,5}
+print(b4_aaa)
+
+b5_ddd = {1, 2, 5,5,1,3,1, 7, 9}
+print(b5_ddd)
+
+k2=(('Uwrwer', 'lewlrwkel', 'ыфдлвдфы'))
+print(k2)
 
