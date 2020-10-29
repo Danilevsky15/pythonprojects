@@ -1,24 +1,22 @@
-if __name__ == "__main__":
+name = input( "Введите свое имя: " )
+firstname = input( "Введите свою фамилию: " )
+age = input( "Укажите свой возраст: " )
 
-    # задача 108
+print("Привет, " + name + firstname + "! ")
+print("тебе уже " + age + ",это круто! " )
+print( name + ", предлагаю тебе попробовать наш новейший калькулятор! ")
 
-    input = 1
-    output = input
-    print(output)
+qw = input("Попробуешь? (да, нет):")
+if qw == "да" :
+    n = input("Что хочешь сделать? (+) или (-):")
+    a = int(input("Введи первое число:"))
+    b = int(input("Введи второе число:"))
+    if n == "+" :
+        c = a + b
+    print("Результат:" + str(c))
+    if n == "-" :
+        c = a - b
+    print("Результат:" + str(c))
 
-    input0 = 2
-    output0 = input0
-    print(input0)
-
-    # задача 108
-
-
-
-    # задача 1
-
-    input1 = 1 + 4
-    output1 = input1
-    print(output1)
-
-    # задача 1
-
+if qw == "нет" :
+    print("Удачи тебе, у меня все!")
