@@ -1,151 +1,45 @@
-#бисер https://acmp.ru/index.asp?main=task&id_task=903
-a = int(input("рандомное число:"))
-print(a+1)
+a = int
+a = input("insert the number : ")
+if a <= 1000 or a != 1000:
+    while a < 1000 or a <= 1000:
+        print(a+1)
+        a += 100
+        if a == 1000:
+            break
+if a >= 1000:
+    while a > 1000 or a >= 1000:
+        print(a+1)
+        a -= 100
+        if a == 1000:
+            break
 
-# https://acmp.ru/index.asp?main=task&id_task=942
-a = (1)
-b = (2)
-c = (3)
-print("Победил " + str(a) + "-ый школьник ")
+#https://acmp.ru/index.asp?main=task&id_task=529 длина отрезка это   -   корень(x^2+y^2)
+import math
+x1 = int
+x1 = input("insert the number: ")
+y1 = int
+y1 = input("insert the number: ")
+x2 = int
+x2 = input("insert the number: ")
+y2 = int
+y2 = input("insert the number: ")
+l = int
+l = math.sqrt((x2-x1)^2+(y2-y1)^2)
+print(l)
 
-# https://acmp.ru/index.asp?main=task&id_task=4 игра
-k = int(input())
-a = 9 - k
-b = str(k) + str(9) + str(a)
-print(b)
 
-# https://acmp.ru/index.asp?main=task&id_task=25
-a = int(input("Введите первое число:"))
-b = int(input("Введите второе число:"))
-if a > b :
-    print(">")
-if a < b :
-    print("<")
-if a == b :
-    print("=")
-
-# https://acmp.ru/index.asp?main=task&id_task=766
-n = int(input("Введите число: "))
-m = int(input("Введите число: "))
-k = int(input("Введите число: "))
-if n + m < k :
-    print("no")
-if n + m > k :
-    print("yes")
-
-# https://acmp.ru/index.asp?main=task&id_task=195 элия
-a = int( input("Введите число: "))
-b = int( input("Введите число: "))
-n = int( input("Введите число: "))
-c = (a * b * n) * 2
-print("Понадобится " + str(c) + " грамм наносульфида")
-
-# https://acmp.ru/index.asp?main=task&id_task=773 гулливер
-k = int(input("Введите число: "))
-m = int(input("Введите число: "))
-a = k * k * m
-print(a)
-
-# https://acmp.ru/index.asp?main=task&id_task=33 два бандита
-a = int(input("Введите число: "))
-b = int(input("Введите число: "))
-if a < 10 :
-    c = 10 - a
-    print(c)
-# я хз пока как ставить ограничение до того или иного числа,поэтому ,говорю, что пользователь пж выбери до 10
-if a > 10 :
-    print("Введите число до 10")
-if b < 10 :
-    e = 10 - b
-    print(e)
-if b > 10 :
-    print("Введите число до 10")
-
-# https://acmp.ru/index.asp?main=task&id_task=21 зарплата
-a = int(input("Введите число: "))
-b = int(input("Введите число: "))
-c = int(input("Введите число: "))
-if a < b and a < c :
-    n = a
-if b < a and b < c :
-    n = b
-if c < a and c < b :
-    n = c
-if a > b and a > c :
-    m = a
-if b > a and b > c :
-    m = b
-if c > a and c > b :
-    m = c
-r = m - n
-print("Разница между максимальным и минимальным - " + str(r))
-
-# https://acmp.ru/index.asp?main=task&id_task=4 игра
-a = int(input("Введите первую цифру сотни числа: "))
-b = int(input("Введите первую цифру десятка числа: "))
-с = int(input("Введите единицу числа: "))
-e = a & b & c       # хз я не понял как это делать
-f = c & b & a
-i = e - f
-print(i)
-
-# https://acmp.ru/index.asp?main=task&id_task=8 арифметика
-a = int(input("Введите число: "))
-b = int(input("Введите число: "))
-c = int(input("Введите число: "))
-if a * b == c :
-    print("yes")
-if a * b != c :
-    print("no")
-
-# https://acmp.ru/index.asp?main=task&id_task=61 баскетбол
-a0 = int(input("Введите первой команды число: "))
-a1 = int(input("Введите первой команды число: "))
-a2 = int(input("Введите первой команды число: "))
-a3 = int(input("Введите первой команды число: "))
-b0 = int(input("Введите второй команды число: "))
-b1 = int(input("Введите второй команды число: "))
-b2 = int(input("Введите второй команды число: "))
-b3 = int(input("Введите второй команды число: "))
-a = a0 + a1 + a2 + a3
-b = b0 + b1 + b2 + b3
-if a == b :
-    print("DRAW")
-if a > b :
-    print(1)
-if a < b :
-    print(2)
-
-# https://acmp.ru/index.asp?main=task&id_task=755 земляника
-x = int(input("Введите число ягод собранных Мише: "))
-y = int(input("Введите число ягод собранных Машей: "))
-z = int(input("Введите число сьеденных: "))
-a = x + y - z
-if a > z :
-    print(a)
-if a < z :
-    print("Impossible")
-if a == z :
-    print("Impossible")
-
-# https://acmp.ru/index.asp?main=task&id_task=2 сумма
-n = int(input("Введите число: "))
-
-# https://acmp.ru/index.asp?main=task&id_task=7 золото племени абба
-a = int(input("Введите число: "))
-b = int(input("Введите число: "))
-c = int(input("Введите число: "))
-if a > b and a > c :
-    e = a
-    print(e)
-if b > a and b > c :
-    e = b
-    print(e)
-if c > a and c > b :
-    e = c
-    print(e)
-
-# https://acmp.ru/index.asp?main=task&id_task=2 сумма
-n = int(input("Введите число: "))
-a = n * (n+1) // 2
-print(a)
+# https://acmp.ru/index.asp?main=task&id_task=819 паралм
+a = int
+a = input("Введите положительное число:")
+b = int
+b = input("Введите положительное число:")
+h = int
+h = input("Введите положительное число:")
+if a < 0 or b < 0 or h < 0:
+    print("Введите положительное числа:")
+if a >= 0 or b >= 0 or h >= 0:
+    S = int
+    V = int
+    S = 2*(a*b + b*h + a*h)
+    V = a*b*h
+print(S, V)
